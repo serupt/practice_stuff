@@ -17,7 +17,20 @@ document.querySelector(".range").addEventListener("click", function () {
     alert("Please enter a number higher than 1!");
   } else {
     document.querySelector(".between").textContent = `(Between 1 and ${range})`;
+
     secretNumber = Math.floor(Math.random() * range) + 1;
+
+    document.querySelector(".score").textContent = 20;
+
+    score = 20;
+
+    document.querySelector("body").style.backgroundColor = "#222";
+
+    document.querySelector(".message").textContent = "Start guessing...";
+
+    document.querySelector(".guess").value = "";
+
+    document.querySelector(".number").textContent = "?";
   }
 });
 
