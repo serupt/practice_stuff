@@ -1,31 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Guess My Number!</title>
+    <title>Random Stuff</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
-  <body>
-    <header>
-      <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 20)</p>
-      <button class="btn range">Edit Range</button>
-      <button class="btn again">Reset</button>
-      <div class="number">?</div>
-    </header>
-    <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
-        <p class="label-highscore">🥇 Highscore: <span class="highscore">0</span></p>
-      </section>
-    </main>
-    <script src="script.js"></script>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Me -->
+
+        <!-- Work -->
+        <article id="work" class="panel">
+          <header>
+            <h2>Projects</h2>
+          </header>
+          <p>
+            Here are some of the projects that I have done.
+          </p>
+          <section>
+            <div class="row">
+              <div class="col-4 col-6-medium col-12-small">
+				<p>Number Guessing Game</p>
+                <a href="/number-guessing-game/" class="image fit"><img src="images/pic01.png" alt="" /></a>
+              </div>
+              <div class="col-4 col-6-medium col-12-small">
+				<p>Dice Pig Game</p>
+                <a href="/dice-pig-game/" class="image fit"><img src="images/pic02.png" alt="" /></a>
+              </div>
+            </div>
+          </section>
+        </article>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
