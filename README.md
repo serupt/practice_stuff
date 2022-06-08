@@ -1,1 +1,1 @@
-#number-guessing-game
+#javascript practice
