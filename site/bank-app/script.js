@@ -264,5 +264,3 @@ btnSort.addEventListener("click", function (e) {
   displayTransactions(currentAccount, !isSorted);
   isSorted = !isSorted;
 });
-
-alert("Test Logins\n id     pw\n js     1111\n jd     2222\n stw    3333\n ss     4444\n");
